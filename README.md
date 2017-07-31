@@ -14,7 +14,7 @@ With a free Twilio account, you only get to text verified numbers.
     Get Auth Token
 
 
-7. Put your twilio credentials and twilio phone numbers in send_msg.py
+7. Put your twilio credentials and twilio phone numbers in send_sms.py
 8. Clone this repository on your desktop.
 9. Open your terminal and pip install twilio.
 10. Open send_sms.py in IDLE and Run it!
@@ -27,3 +27,5 @@ python Desktop/CP-Twilio-Python-Text-App/send_sms.py
 Congratulations!
 
     You just sent your first text through your Python Text App that uses the Twilio API.
+
+# if you're using twilio below version 6.0.0 replace the line Client with TwilioRestClient
